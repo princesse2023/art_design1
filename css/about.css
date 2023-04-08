@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p,span, h1, h5 {
+    font-family: 'Montserrat', sans-serif;
+  }
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 35px;
+    /* margin-left: 835px; */
+    text-decoration: none;
+    color: black;
+   font-weight: bold;
+}
+
+.image1{
+    background-image: url("../image/maison.jpg") !important;
+    background-size: cover;
+    height: 600px;
+    background-position: 50% 50%;
+    margin-top: 35px;
+    width: 100%;
+    z-index: 0;
+}
+.p1{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    color: aliceblue;
+    
+}
+span{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: aliceblue;
+}
+.container{
+    position: relative;
+}
+
+.container_box{
+    position: absolute;
+    background:white;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    bottom: 450px;
+    left: 70px;
+}
+.div_01{
+    color: #b0ddea;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arch{
+    margin-top: 15px;
+     margin-left: 50px;
+}
+.container_arch{
+   font-size: 35px;
+}
+.p2_arch{
+    flex-direction: column;
+    font-size: 25px;
+}
+#button_arch{
+    
+    border: 15px ;
+    border-radius: 40px;
+    background: #b0ddea;
+    color: rgb(236, 239, 241);
+    padding: 20px 50px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* .more{
+    font-size:x-large;
+} */
+/* .learn{
+    font-size: 15px;
+} */
+.carrebleue{
+    display: flex;
+  
+    /* width: 50px;
+    height: 45px; */
+    /* border:100px solid 20px ;
+    border-radius: 30px; */
+    /* background: #4f89c0; */
+    width:100%;
+    height:700px;
+    background:#b0ddea;
+    margin-top: 50px;
+    z-index: -2;
+}
+
+.textecb{
+    margin-left: 50px;
+    margin-top: 80px;
+    color: white;
+    font-size: xx-large;
+    line-height: 40px;
+    /* word-spacing: 10px; */
+    font-family: Arial, Helvetica, sans-serif
+}
+/* .carréblanc{
+    width: 25%;
+    height: 400px;
+    background: rgb(175, 10, 10);
+    margin-bottom: -30px;
+   border: 10px solid 15px;
+} */
+.carréblanc{
+    background: white;
+    margin-top: 35px;
+    border: 10px;
+    border-radius: 23px;
+    margin-bottom: -250px;
+    height: 350px;
+    width: 250px;
+    
+}
+.motivation{
+    color: #b0ddea;
+    margin-left: 15px;
+    justify-content: center;
+    opacity: 20px;
+    font-family: serif;
+
+}
+.sample{
+   color: rgb(75, 72, 72);
+    font-size:20px ;
+    margin-left: 15px;
+    align-items: center;
+    font-family: serif;
+    line-height: 90%;
+}
+.cerclebleue{
+    /* color: #ad2d05; */
+    width: 100px;
+    height: 100px;
+    background: #b0ddea;
+    border: 40px;
+    border-radius: 60px;
+    display: flex; 
+}
+.poignet{
+    width:60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cerclepoignet{
+    position: absolute;
+    top: 1373px;
+    left: 250px;  
+}
+.carr_flex{
+    display: flex;
+    gap: 20px;
+    margin-left: 115px;
+}
+.creativity{
+    color: #b0ddea;
+    margin-left: 15px;
+    justify-content: center;
+    opacity: 20px;
+    font-family: serif;
+}
+.cercleempou{
+    position: absolute;
+    background: #b0ddea;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    bottom:-650px ;
+    left:500px
+}
+.empou{
+    width:60px ;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cerclelike{
+    position: absolute;
+    background: #b0ddea;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    bottom: -650px;
+    left: 750px;
+}
+.like{
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.positivity{
+    color: #b0ddea;
+    margin-left: 15px;
+    justify-content: center;
+    opacity: 20px;
+    font-family: serif;
+}
+
+.cercledeuxpied{
+    position: absolute;
+    background: #b0ddea;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    bottom: -650px;
+     left: 1040px;
+}
+.deuxpied{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.delegating{
+    color: #b0ddea;
+    margin-left: 15px;
+    justify-content: center;
+    opacity: 20px;
+    font-family: serif;
+}
+/* .cerclepoignet{
+    margin-bottom: -150px;
+} */
+.carresombre{
+   
+    background: #e0d1d1;
+    width: 300px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 150px;
+  
+}
+.ecriture{
+     position: absolute; 
+    margin-top: 25px;
+   align-items: center;
+   line-height: 35px;
+   margin-left: 35px;
+}
+.hommedansovale{
+    /* display: flex; */
+    width: 400px;
+    height: 400px;
+    margin-left: -235px;
+    margin-top: 300PX;
+   
+}
+.beau{
+    display: flex;
+}
+.principal{
+margin-left: 120px;
+margin-top: 70px;
+line-height: 30px;
+font-size: x-large;
+}
+.belle{
+    display: flex;
+   margin-top: 65px;
+   justify-content: space-between;
+}
+.femme{
+    margin-right: 170px;
+    height: 600px;
+    width: 600px;
+}
+/* .femme{
+    margin-top: 250px;
+    margin-left: 450px;
+    margin-right: 200px;
+    width: 700px;
+    height: 700px;
+} */
+.leader{
+    /* margin-top: 300px  0 0; */
+    /* margin: 400px 00px 00px; */
+    margin-left: 150px;
+    text-align: justify;
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 190%;
+}
+.under{
+    font-size: 45px;
+}
+.carreclair{
+    background: #b0ddea;
+    width: 250px;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: -30px;
+    border: 10px;
+    border-radius: 40px 
+    
+}
+.morean{
+    color: white;
+    font-weight:200px;
+    font-size: x-large;
+    margin-top: 3000px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    text-align: center;
+}
+/* .facebook{
+    /* position: absolute;
+    margin-left: 950px;
+   margin-bottom:- 100px;
+} */ 
+.deux_filles{
+    display: flex;
+    margin-top: 250px;
+    margin-right: 440px;
+    justify-content:center;
+    gap:150px
+}
+/* .total_image{
+    display: flex;
+    width: 5px;
+    height: 20px;
+} */
+.image4{
+    width: 250px;
+    height: 250px;
+}
+.image5{
+    width: 250px;
+    height: 250px;
+}
+.image6{
+    width: 250px;
+    height: 250px;
+}
+.meet{
+    position: absolute;
+  bottom: -2597px;
+  /* text-align: justify;
+  align-items: center; */
+    left: 200px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ann{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    /* gap: 200px; */
+    font-size: 20px;
+}
+.mary{
+   margin-left: 30px;
+   text-align: justify;
+   font-size: 20px;
+   /* line-height: 25px; */
+}
+.BROWN{
+    color: #b0ddea;
+}
+.rich{
+    margin-right: 200px;
+    text-align: justify;
+    font-size: 20px;
+    /* line-height: 25px;  */
+    margin-left: 180px;
+}
+.mond{
+    color: #b0ddea;
+}
+.bob{
+    margin-right: 480px;
+} 
+.green{
+    color: #b0ddea;
+}.facebok{
+    width: 30px;
+    height: 30px;
+    margin-left: 160px;
+}
+.facebok2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 550px;
+}
+.facebok3{
+    width: 30px;
+    height: 30px; 
+    margin-left: 775px;
+}
+.book{
+    display: flex;
+}
+.oiseau{
+    display: flex;
+    /* margin-left: 200px;  */
+    /* justify-content: space-between; */
+    gap: 70px;
+}
+.twitter{  
+    position: absolute;  
+width: 30px;
+height: 30px;
+margin-left: 220px;
+bottom: -3120px;
+
+
+}
+.twitter2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 540px;
+    bottom: -3120px;
+    
+}
+.twitter3{
+     position: absolute; 
+    width: 30px;
+    height: 30px; 
+    margin-left: 880px;
+    bottom: -3120px;
+}
+.instagram1{
+position: absolute;    
+width: 35px;
+height: 35px;
+margin-left:270px ;
+bottom: -3122px;
+}
+.instagram2{
+ position: absolute;    
+width: 35px;
+height: 35px;
+margin-left:660px ;
+bottom: -3122px;
+
+}
+.instagram3{
+    position: absolute;    
+    width: 35px;
+    height: 35px;
+    margin-left:1070px ;
+    bottom: -3122px;
+}
+.insta{
+    display: flex;
+}
+.fembook{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #b0ddea;
+    margin-left: 970px;
+    bottom: -2288px;    
+}
+.twitterfem{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 1020px;
+    bottom: -2288px;  
+}
+.instagramfemm{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #b0ddea;
+    margin-left: 1060px;
+    bottom: -2288px;   
+}
